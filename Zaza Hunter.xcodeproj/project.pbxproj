@@ -15,6 +15,7 @@
 		30B4F06E29A6C0D700214769 /* Zaza_HunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4F06D29A6C0D700214769 /* Zaza_HunterUITests.swift */; };
 		30B4F07029A6C0D700214769 /* Zaza_HunterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4F06F29A6C0D700214769 /* Zaza_HunterUITestsLaunchTests.swift */; };
 		30B4F07D29A6C21300214769 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4F07C29A6C21300214769 /* LocationManager.swift */; };
+		30B4F07F29A6C32600214769 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B4F07E29A6C32600214769 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		30B4F06D29A6C0D700214769 /* Zaza_HunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zaza_HunterUITests.swift; sourceTree = "<group>"; };
 		30B4F06F29A6C0D700214769 /* Zaza_HunterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zaza_HunterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30B4F07C29A6C21300214769 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		30B4F07E29A6C32600214769 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		30B4F04629A6C0D500214769 = {
 			isa = PBXGroup;
 			children = (
+				30B4F07E29A6C32600214769 /* LocationDetailsView.swift */,
 				30B4F07C29A6C21300214769 /* LocationManager.swift */,
 				30B4F05129A6C0D500214769 /* Zaza Hunter */,
 				30B4F06229A6C0D700214769 /* Zaza HunterTests */,
@@ -262,6 +265,7 @@
 			files = (
 				30B4F05529A6C0D500214769 /* ContentView.swift in Sources */,
 				30B4F05329A6C0D500214769 /* Zaza_HunterApp.swift in Sources */,
+				30B4F07F29A6C32600214769 /* LocationDetailsView.swift in Sources */,
 				30B4F07D29A6C21300214769 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

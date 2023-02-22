@@ -43,11 +43,6 @@ struct ContentView: View {
      }
  }
 
- @@ -25,3 +49,9 @@ struct ContentView_Previews: PreviewProvider {
-         ContentView()
-     }
- }
-
  struct Place: Identifiable {
      let id = UUID()
      let annotation: MKPointAnnotation
